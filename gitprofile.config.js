@@ -3,7 +3,7 @@ const config = {
   github: {
     username: 'BilalYounes', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 6, // How many projects to display.
+    limit: 8, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -75,6 +75,12 @@ const config = {
       description: 'Natours is a beautiful website showcasing advanced skills in Sass. The website is designed to be visually stunning and to showcase the power of Sass. The website includes several advanced features such as custom grids, responsive design, mixins, and more.',
       imageUrl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU144JSb4SvYCnxaZ4fBZi0bZtw3AEnepjAQ&usqp=CAU',
       link: 'https://bilalyounes.github.io/NATOURS/',
+    },
+    {
+      title: 'Elysium',
+      description:'Elysium is a website that showcases luxurious homes and properties. It fetches real-world data from an API to display property listings with details such as images, descriptions, and features. The website is designed using modern SCSS with a focus on grid layout for responsive and visually appealing pages.',
+      imageUrl:'https://robchandlerdesign.com/wp-content/uploads/2017/08/Elysium-Logo-Eastern-Design-Bureau-Rob-Chandler-Graphic-Design-2-min.jpg',
+      link: 'https://bilalyounes.github.io/Elysium/',
     },
     {
       title: 'Netflix Clone',
